@@ -1,0 +1,8 @@
+include LICENSE.txt
+include README.md
+
+include myocr_small/model/*
+include myocr_small/character/*
+include myocr_small/dict/*
+include myocr_small/scripts/compile_dbnet_dcn.py
+recursive-include myocr_small/DBNet *
